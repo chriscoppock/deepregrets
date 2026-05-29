@@ -12,6 +12,10 @@ from google import genai
 from google.genai import types
 from pydantic import BaseModel
 
+import os
+
+client = genai.Client()
+
 warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")
 warnings.filterwarnings("ignore", category=FutureWarning)
 
