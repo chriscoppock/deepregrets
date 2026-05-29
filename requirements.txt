@@ -3,5 +3,4 @@ yfinance
 GoogleNews
 ollama
 genai
-google.genai
 pydantic
